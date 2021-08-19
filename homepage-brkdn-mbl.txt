@@ -1,19 +1,15 @@
 -Header
     -Logo
-        -Icon
-        -Title
     - Navigation Bar
         -FAQ
         -About
     -Headline
-        Retreat from the desk, return refreshed.
     -Hero Image
 
 -Main Content Area (3 sections)
     -1.Newsletter signup
         -Call to action
             -Headline
-                Want to join the next retreat?
             -Paragraph
         -Newsletter Signup
             -Headline
