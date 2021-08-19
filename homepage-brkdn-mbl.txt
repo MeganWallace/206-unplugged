@@ -1,0 +1,43 @@
+-Header
+    -Logo
+        -Icon
+        -Title
+    - Navigation Bar
+        -FAQ
+        -About
+    -Headline
+        Retreat from the desk, return refreshed.
+    -Hero Image
+
+-Main Content Area (3 sections)
+    -1.Newsletter signup
+        -Call to action
+            -Headline
+                Want to join the next retreat?
+            -Paragraph
+        -Newsletter Signup
+            -Headline
+            -Email field
+        -Itinerary/Submit button
+    -2.General Information
+        -Headline
+        -Background image
+        -Icons
+        -Text
+    -3.Past Retreats
+        -Headline
+        -Image 
+        -Sub-Headline
+        -Paragraph
+
+-Footer
+    -Contact
+        -Phone no.
+        -Email address
+    -Social Media
+        -Headline
+        -Icons
+            -Facebook
+            -Twitter
+            -Instagram
+    -Copyright
