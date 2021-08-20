@@ -86,7 +86,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* ================== Base Header - Footer Styles ================== */
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+/* -------------------- Base Header - Footer Styles -------------------- */
 
 header, 
 footer {
@@ -94,19 +100,29 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+/*  background-color: #202322;  */
 }
 
-/* -- Header Styles -- */
+/* ----- Header Styles ----- */
+
+header {
+  padding: 15px 0;
+}
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+
 }
 
 .header-divider {
-
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav {
@@ -114,30 +130,40 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+
+  /*list-style: none;*/
 }
 
-/* -- Footer Styles -- */
+/* ----- Footer Styles ----- */
+
+footer {
+flex-direction: column;
+}
+
+footer p {
+  margin: 0;
+}
 
 footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 
 }
 
-.footer-content {
+/*//// ---> footer .footer-content {} */
 
+footer .contact {
+  margin-bottom: 50px;
 }
 
-address {
-
-}
-
-footer .social {
-
-}
+/*//// ---> footer .social {} */
 
 footer .social-icons {
   display: flex;
@@ -151,21 +177,21 @@ footer .social p {
   align-items: center;
 
 }
-.copyright {
-
+footer .copyright {
+  margin: 20px 0;
 }
 
 /* ================== Mobile Styles - Homepage ================== */
 
-/* -- Hero Area -- */
+/* ----- Hero Area ----- */
 
 .hero-area {
   display: flex;
   justify-content: center;
-
+  flex-flow: row wrap;
 }
 
-/* -- Aside -- */
+/* ----- Aside ----- */
 
 aside {
   display: flex;
@@ -175,30 +201,22 @@ aside {
 
 }
 
-aside .content-wrapper {
+/*////---> .form-description {} */
 
+/*//// ---> .form {} */
 
-}
-
-.form-description {
-
-}
-
-.form {
-
-}
-
-/* -- Features -- */
+/* ----- Features ----- */
 
 .features {
   display: flex;
   justify-content: center;
-}
-
-.features .content-wrapper {
+  flex-flow: row wrap;
 
 }
 
+.features h2 {
+  margin-bottom: 60px;
+}
 .features .features-items {
   display: flex;
   justify-content: center;
@@ -206,11 +224,17 @@ aside .content-wrapper {
   flex-flow: row wrap;
 }
 
-article .features-item-description {
+.features article {
+  width: 63%;
+  margin: 30px 0;
 
 }
 
-/* -- Reviews -- */
+.features p {
+  margin: 0;
+}
+
+/* ----- Reviews ----- */
 
 .reviews {
   display: flex;
@@ -218,17 +242,20 @@ article .features-item-description {
   flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
-
+.reviews h2 {
+  margin-bottom: 30px;
 }
 
-article {
+/*//// ---> .reviews article {}  */
 
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
 /* ================== About Page ================== */
 
-/* -- Mission -- */
+/* ----- Mission ----- */
 
 .mission {
   display: flex;
@@ -237,21 +264,13 @@ article {
   flex-flow: row wrap;
 }
 
-.mission .content-wrapper {
+/*//// ---> .mission-content {} */
 
-}
+/* ----- Map ----- */
 
-.mission-content {
+/*//// ---> .map {} */
 
-}
-
-/* -- Map -- */
-
-.map {
-
-}
-
-/* -- Contact -- */
+/* ----- Contact -------*/
 
 .contact-section {
   display: flex;
@@ -260,17 +279,13 @@ article {
   flex-flow: row wrap;
 }
 
-.contact-section .content-wrapper {
+/*//// ---> address .contact-content {} */
 
-}
-
-address .contact-content {
-
+.contact-content p {
+  margin: 0;
 }
 
 /* ================== FAQ Page ================== */
-
-/* -- faq section -- */
 
 .faq {
   display: flex;
@@ -285,14 +300,16 @@ address .contact-content {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-.questions-container {
+  margin: 50px 0 0 0;
 
 }
 
-.question {
+.faq h2 {
+  margin-bottom: 40px;
+}
 
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
