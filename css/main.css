@@ -396,23 +396,21 @@ aside {
   }
 
 /* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
+   MEDIA QUERIES FOR RESPONSIVE DESIGN
+      These examples override the primary ('mobile first') styles.
+      Modify as content requires.
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
     /* ===== Tablet styles here ===== */
 
   /* General Styles */
-
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0;
   }
 
   /* Header Styles */
-
   header {
     padding: 30px 0;
   }
@@ -437,7 +435,6 @@ aside {
   }
 
   /*  Footer Styles  */
-
   footer .content-wrapper {
     width: 65%;
     margin: 100px 0;
@@ -462,7 +459,6 @@ aside {
   /*  Hero  */
 
   /*  Aside  */
-    
   aside .content-wrapper{
     display: flex;
     justify-content: space-between;
@@ -478,7 +474,6 @@ aside {
   }
   
   /*  Features  */
-
   .features article {
     display: flex;
     justify-content: center;
@@ -493,7 +488,6 @@ aside {
   }
 
   /*  Reviews  */
-  
   .reviews article {
     display: flex;
     justify-content: space-between;
@@ -507,7 +501,6 @@ aside {
   /* ---------- About Page ---------- */
   
   /*  Mission  */
-  
   .mission-content {
     display: flex;
     justify-content: space-between;
@@ -522,7 +515,6 @@ aside {
   /*//// ---> .map {} */
   
   /*  Contact  */
-  
   .contact-section .content-wrapper h2{
     width: 65%;
   }
@@ -550,9 +542,63 @@ aside {
   }
 
 }
-
+/* ======================================================================
+   ====================================================================== */
 @media only screen and (min-width: 1200px) {
-  /* ----- Desktop styles here ----- */
+  /* ===== Desktop styles here ===== */
+
+    /* General Styles */
+  .content-wrapper {
+    max-width: 960px;
+  }
+
+    /* ---------- Desktop - Homepage ---------- */
+
+  /*  Hero  */
+  .hero-area h1 {
+    width: 60%;
+  }
+
+  /*  Aside  */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }    
+
+  aside .form-description,
+  aside .form {
+    width: 30%;
+  }
+
+  /*  Features  */
+  .features h2 {
+    width: 90%;
+  }
+  
+  .features article {
+    flex-basis: 33%;
+  
+  }
+
+  /*  Reviews  */
+  .reviews article div {
+    width: 42%;
+  
+  }
+
+  /* ---------- About Page ---------- */
+  
+  .mission-content h2,
+  .contact-section .content-wrapper h2 {
+    width: 95%;
+  }
+
+  /* ---------- FAQ Page ---------- */
+  
+  .faq h2 {
+    width: 100%;
+  }
+
+  
 }
 
 /* ==========================================================================
