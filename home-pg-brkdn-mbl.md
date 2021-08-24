@@ -2,8 +2,8 @@
 ## Header
 - Logo: [img]
 - Divider
-- Navigation Bar
-    - FAQ: _'Open Sans' | 18px | bold | #e2e3ed_
+- Navigation Bar 
+    - FAQ: _'Open Sans' | 18px/1.125em | bold | #e2e3ed_
     - About: _'Open Sans' | 18px | bold | #e2e3ed_
 
 ## Main Content Area (3 sections + aside)
@@ -55,7 +55,13 @@ font-family: 'Open Sans', sans-serif;
 - 'Poppins' -> accent font (headers)
 font-family: 'Poppins', sans-serif;
 
-Sizes: 14px, 18px, 30px, 36px
+- Sizes: 14px, 18px, 30px, 36px
+    **- 16px = 1em**
+    - 14px = 0.875em
+    - 18px = 1.125em 
+    - 30px = 1.875em
+    - 36px = 2.25em
+
 
 ## Colors
 - Header: #202322
