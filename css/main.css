@@ -100,11 +100,10 @@ body {
 }
 
 ul {
-  font-family: 'Open Sans', sans-serif;
   font-size: 1.125em;
+/*  margin: 0;
+  padding: 0; */
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -114,17 +113,18 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.875em;
+  font-size: 1.875em;  /*30px*/
   font-weight: 500;
-  line-height: 1em;   /*1em=30px*/
+/*  line-height: 1em;   1em=30px*/
 }
 
 h3,
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+  font-size: 1.125em;  /*18px*/
   font-weight: 500;
-  line-height: 1.3em;  /*1em=18px*/
+  margin: 20px 0;
+/*  line-height: 1.3em;  1em=18px*/
 }
 
 h4 {
@@ -132,7 +132,7 @@ h4 {
 }
 
 p {
-  font-size: 0.875em;
+  font-size: 0.875em;  /*14px*/
   line-height: 1.285em;  /*1em=14px*/
 }
 
@@ -157,11 +157,11 @@ address {
 
 header, 
 footer {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #202322;
 }
 
 /* ----- Header Styles ----- */
@@ -176,7 +176,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-  width: 100%;
+/*  width: 100%;  */
 }
 
 header figure {
@@ -195,14 +195,13 @@ header figure {
 }
 
 header nav {
+  width: 60%;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
-  width: 60%;
-  font-weight: 700;
-  text-transform: uppercase;
-
 }
 
 header nav ul {
@@ -229,13 +228,9 @@ footer .content-wrapper {
 
 }
 
-/*//// ---> footer .footer-content {} */
-
 footer .contact {
   margin-bottom: 50px;
 }
-
-/*//// ---> footer .social {} */
 
 footer .social-icons {
   display: flex;
@@ -272,21 +267,22 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2em; 
-  margin: 0;
+/*  margin: 0;  */
 }
 
 /* ----- Aside ----- */
 
 aside {
+  background: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background: #527158;
-
 }
 
-/*////---> .form-description {} */
+/*aside .content-wrapper {
+  margin: 30px 0 55px 0;
+} */
 
 aside .form {
   margin-top: 30px;
@@ -378,11 +374,24 @@ input[type=button] {
   background: #527158;
 }
 
-/*//// ---> .mission-content {} */
 
 /* ----- Map ----- */
 
-/*//// ---> .map {} */
+.map figure {
+  width: 100%;
+  height: 0; 
+  padding-bottom: 125%; 
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
 
 /* ----- Contact -------*/
 
