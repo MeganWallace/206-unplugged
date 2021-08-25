@@ -674,9 +674,12 @@ input[type=button] {
   .mission-content p {
     width: 45%;
   }
+
   /*  Map  */
   
-  /*//// ---> .map {} */
+  .map figure {
+    padding-bottom: 45%;
+  }
   
   /*  Contact  */
   .contact-section .content-wrapper h2{
@@ -776,6 +779,10 @@ input[type=button] {
     width: 95%;
   }
 
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+  
   /* ---------- FAQ Page ---------- */
   
   .faq h2 {
