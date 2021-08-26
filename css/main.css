@@ -213,8 +213,12 @@ header nav ul {
 /* ----- Footer Styles ----- */
 
 footer {
-flex-direction: column;
-text-align: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer h4 {
+  margin: 40px 0;
 }
 
 footer p {
@@ -225,7 +229,6 @@ footer p {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
-
 }
 
 footer .contact {
@@ -238,12 +241,26 @@ footer .social-icons {
   align-items: center;
 }
 
+footer .social-icons p {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #527158;
+  width: 40px;
+  height: 40px;
+}
+
+footer .social-icons i {
+  font-size: 1.3125em;
+}
+
 footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 footer .copyright {
   margin: 20px 0;
 }
@@ -360,8 +377,6 @@ input[type=button] {
   margin-bottom: 30px;
 }
 
-/*//// ---> .reviews article {}  */
-
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
@@ -407,8 +422,6 @@ input[type=button] {
   flex-flow: row wrap;
   background: #2a423a;
 }
-
-/*//// ---> address .contact-content {} */
 
 .contact-content p {
   margin: 0;
@@ -594,6 +607,11 @@ input[type=button] {
 
   footer .contact {
     margin-bottom: 0;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
